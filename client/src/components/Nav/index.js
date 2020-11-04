@@ -7,7 +7,7 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row">
+        <ul className="flex-row nav-list">
           <li className="mx-1">
             <Link to="/shop">
               Our Products
@@ -28,7 +28,7 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
+        <ul className="flex-row nav-list">
           <li className="mx-1">
             <Link to="/shop">
               <span>Our Products</span>
@@ -52,9 +52,9 @@ function Nav() {
   return (
     <div>
     <header className="flex-row px-1 space-between">
-      <h1>
+      <h1 className="top-stripe-h1">
         <Link to="/">
-          <span role="img" aria-label="shopping bag"></span>
+          <span role="img" aria-label="shopping bag" className="site-title"></span>
           What's Your Beef
         </Link>
       </h1>

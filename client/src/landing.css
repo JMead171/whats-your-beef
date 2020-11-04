@@ -14,5 +14,21 @@ ul {
   justify-content: space-evenly;
 }
 
+.nav-list {
+  padding: 10px 0;
+  background: #457B9D;
+}
 
+.site-title {
+  text-align: center;
+}
 
+.top-stripe-h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbo-title, .jumbo-body{
+  background: rgba(245, 245, 220, 0.45);
+  margin: 0 auto;
+}
