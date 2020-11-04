@@ -1,0 +1,18 @@
+.jumbo {
+    background-image: url("./assets/meat_platter.jpg");
+    min-height: 853px;
+    min-width: 1280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+
+
