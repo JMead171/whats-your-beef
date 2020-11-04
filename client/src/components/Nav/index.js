@@ -9,6 +9,11 @@ function Nav() {
       return (
         <ul className="flex-row">
           <li className="mx-1">
+            <Link to="/shop">
+              Our Products
+            </Link>
+          </li>
+          <li className="mx-1">
             <Link to="/orderHistory">
               Order History
             </Link>
@@ -25,6 +30,11 @@ function Nav() {
       return (
         <ul className="flex-row">
           <li className="mx-1">
+            <Link to="/shop">
+              <span>Our Products</span>
+            </Link>
+          </li>
+          <li className="mx-1">
             <Link to="/signup">
               Signup
             </Link>
@@ -40,18 +50,20 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
+    <div>
+    <header className="flex-row px-1 space-between">
       <h1>
         <Link to="/">
           <span role="img" aria-label="shopping bag"></span>
-          What's your Beef
+          What's Your Beef
         </Link>
       </h1>
+    </header>
 
       <nav>
         {showNavigation()}
       </nav>
-    </header>
+    </div>
   );
 }
 
