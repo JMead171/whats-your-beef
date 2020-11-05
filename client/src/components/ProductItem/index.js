@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { pluralize, idbPromise  } from "../../utils/helpers"
+import { idbPromise  } from "../../utils/helpers"
 import { useStoreContext } from '../../utils/GlobalState';
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 
@@ -10,7 +10,6 @@ function ProductItem(item) {
     name,
     _id,
     price,
-    quantity
   } = item;
 
   const [state, dispatch] = useStoreContext();
@@ -49,7 +48,7 @@ function ProductItem(item) {
         <p>{name}</p>
       </Link>
       <div>
-        <div>{quantity} {pluralize("item", quantity)} in stock</div>
+        
         <span>${price}</span>
       </div>
       <button onClick={addToCart}>Add to cart</button>
