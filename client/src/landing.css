@@ -1,3 +1,10 @@
+
+body {
+  background-image: url("./assets/wood-bg.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
 .jumbo {
     background-image: url("./assets/meat_platter.jpg");
     min-height: 853px;
@@ -5,6 +12,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 10px;
     
   }
 
@@ -16,19 +24,54 @@ ul {
 
 .nav-list {
   padding: 10px 0;
-  background: #457B9D;
+  background: -webkit-linear-gradient(top, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+  
 }
 
-.site-title {
+.site-title, .favorite-title {
   text-align: center;
 }
 
 .top-stripe-h1 {
   margin-left: auto;
   margin-right: auto;
+  
 }
 
-.jumbo-title, .jumbo-body{
-  background: rgba(245, 245, 220, 0.45);
+.jumbo-body{
+  background: rgba(245, 245, 220, 0.6);
   margin: 0 auto;
+}
+
+._1-wtg {
+  display: flex;
+  margin: auto;
+}
+
+.favorites-container {
+  background: -webkit-linear-gradient(top, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+  border-radius: 10px;
+  padding-bottom: 50px;
+  
+}
+
+.footer {
+  margin-top: 50px;
+  min-height: 100px;
+  background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+}
+
+.details-text{
+  background: rgba(245, 245, 220, 0.6);
+  width: 50%;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mx-1 span {
+  color: aliceblue;
+  font-size: 1.25rem;
 }

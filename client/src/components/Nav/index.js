@@ -36,12 +36,12 @@ function Nav() {
           </li>
           <li className="mx-1">
             <Link to="/signup">
-              Signup
+              <span>Signup</span>
             </Link>
           </li>
           <li className="mx-1">
             <Link to="/login">
-              Login
+              <span>Login</span>
             </Link>
           </li>
         </ul>

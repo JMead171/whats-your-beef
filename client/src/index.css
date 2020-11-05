@@ -1,6 +1,6 @@
 :root {
   --primary: #232F3E;
-  --secondary: #47aff3;
+  --secondary: #2f9fd7;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
@@ -21,7 +21,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Apple Chancery', cursive;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -35,21 +35,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Apple Chancery', cursive;
   font-weight: 500;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h4 {
@@ -80,7 +80,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
 }
 
 header a {
@@ -96,7 +96,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background: -webkit-linear-gradient(top, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
 }
 
 button:hover {
@@ -195,8 +195,11 @@ input:focus {
 }
 
 .card {
-  width: 25%;
+  width: 33%;
   text-align: center;
+  background: rgba(240, 240, 225, .6);
+  margin: 5px 1px;
+  
 }
 
 .error-text {

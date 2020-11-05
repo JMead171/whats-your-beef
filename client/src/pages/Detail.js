@@ -87,7 +87,8 @@ function Detail() {
     <>
       {currentProduct ? (
         <div className="container my-1">
-          <Link to="/">
+          <div className="details-text">
+          <Link to="/shop">
             ← Back to Products
           </Link>
 
@@ -104,6 +105,7 @@ function Detail() {
             <button onClick={addToCart}>Add to cart</button>
             <button disabled={!cart.find(p => p._id === currentProduct._id)} onClick={removeFromCart}>Remove from Cart</button>
           </p>
+          </div>
 
           <img
             src={`/images/${currentProduct.image}`}
