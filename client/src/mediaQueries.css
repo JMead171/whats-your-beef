@@ -1,0 +1,91 @@
+@media screen and (max-width: 1024px) {
+    .jumbo {
+        min-width: unset;
+        min-height: 600px;
+    }
+
+    .jumbo-body {
+        font-size: 1.0rem;
+        margin: 13px 0;
+    }
+
+    img {
+        height: unset !important;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+
+    .jumbo {
+        min-width: unset;
+        min-height: 500px;
+    }
+
+    .jumbo-body {
+        font-size: 1.0rem;
+        margin: 13px 0;
+    }
+
+    img {
+        height: unset !important;
+    }
+
+  }
+
+@media only screen and (max-width: 540px) {
+    .jumbo {
+        min-width: unset;
+        min-height: 380px;
+    }
+
+    img {
+        height: unset !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .jumbo {
+        min-width: unset;
+        min-height: 350px;
+        background-position: 0 110px;
+    }
+
+    .jumbo-body {
+        font-size: 1.0rem;
+        margin: 13px 0;
+    }
+
+    .product-buttons {
+        display: grid;
+    }
+
+    img {
+        height: 100px !important;
+        width: unset !important;
+        max-width: none;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .mx-1 {
+        margin-right: unset;
+    }
+
+    .jumbo {
+        min-width: unset;
+        min-height: 350px;
+        background-position: 0 150px;
+    }
+}
