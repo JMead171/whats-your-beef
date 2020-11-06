@@ -57,8 +57,7 @@ const CartItem = ({ item }) => {
             role="img"
             aria-label="trash"
             onClick={() => removeFromCart(item)}
-          >
-            🗑️
+            >Click to Remove
           </span>
         </div>
       </div>

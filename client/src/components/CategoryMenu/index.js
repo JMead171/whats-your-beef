@@ -30,16 +30,24 @@ function CategoryMenu() {
   }, [categoryData, loading, dispatch]);
 
   const handleClick = id => {
-    dispatch({
-      type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id
-    });
+    if (id===-1) {
+      dispatch({
+        type: UPDATE_CURRENT_CATEGORY,
+        currentCategory: null
+      });
+    } else {
+      dispatch({
+        type: UPDATE_CURRENT_CATEGORY,
+        currentCategory: id
+      });
+    }
   };
 
   return (
     <div>
       <h2>Choose a Category:</h2>
       <div className="product-buttons">
+      <button key={-1} onClick={() => {handleClick(-1);}}>All Products</button>
       {categories.map(item => (
         <button
           key={item._id}
