@@ -89,7 +89,7 @@ function Detail() {
         <div className="container my-1">
           <div className="details-text">
           <Link to="/shop">
-            ← Back to Products
+            Go Back to Products
           </Link>
 
           <h2>{currentProduct.name}</h2>
