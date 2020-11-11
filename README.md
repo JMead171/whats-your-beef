@@ -59,6 +59,10 @@ MERN, Javascript, NoSQL, PWA, React SPA, GraphQL API, JWT authentication, offlin
 ![image](https://user-images.githubusercontent.com/64744763/98470685-5bed2f00-21b5-11eb-99f3-9247ea9b8217.png)
 
 
+## Deployed Link
+https://salty-island-84425.herokuapp.com/
+
+
 ## Tests
 npm run test
 
